@@ -34,7 +34,7 @@ try:
                 print(' ')    
             buffer = f.read(buffer_len)
 except FileNotFoundError:
-    print('Выбранный файл не обнаружен в заданной директории')
+    print('Выбранный файл не обнаружен в заданной директории.')
 
                 
                 
