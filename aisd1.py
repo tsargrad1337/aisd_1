@@ -18,7 +18,7 @@ with open("text.txt") as file: # открываем файл
             work_buffer += buffer                
             buffer = file.read(buffer_len) # читаем очередной блок
         if len(work_buffer) >= 2:
-            if int(work_buffer[0])%2==0 and int(work_buffer[1])%2!=0: # ищем числа
+            if int(work_buffer[0]) % 2 == 0 and int(work_buffer[1]) % 2 != 0: # ищем числа
                 a.append(work_buffer)
         work_buffer = ""
         buffer = file.read(buffer_len) # читаем очередной блок
